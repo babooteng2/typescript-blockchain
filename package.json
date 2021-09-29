@@ -1,0 +1,13 @@
+{
+  "name": "typescript-blockchain",
+  "version": "1.0.0",
+  "description": "learning typescript by making a blockchain",
+  "main": "index.js",
+  "repository": "https://github.com/babooteng2/typescript-blockchain",
+  "author": "babooteng2 <babooteng2@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
+}

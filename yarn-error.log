@@ -1,0 +1,36 @@
+Arguments: 
+  /home/babooteng2/.nvm/versions/node/v14.17.3/bin/node /usr/bin/yarn init
+
+PATH: 
+  /home/babooteng2/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/bin:/home/babooteng2/.nvm/versions/node/v14.17.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/Microsoft.WindowsTerminal_1.10.2383.0_x64__8wekyb3d8bbwe:/mnt/c/Python39/Scripts/:/mnt/c/Python39/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/dev:/mnt/c/dev/nodejs/node_modules/npm:/mnt/c/dev/Git:/mnt/c/dev/Git/cmd:/mnt/c/dev/nodejs/:/mnt/c/Program Files (x86)/Brackets/command:/mnt/c/dev/MongoDB/Server/4.2/bin:/mnt/c/dev/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/Tom_Kim/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Tom_Kim/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Tom_Kim/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Program Files (x86)/ESTsoft/ALSee/x64:/home/babooteng2/.yarn-global/bin:/home/babooteng2/.yarn-global/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:136216:13)
+      at Interface.emit (events.js:375:28)
+      at Interface._ttyWrite (readline.js:910:16)
+      at ReadStream.onkeypress (readline.js:235:10)
+      at ReadStream.emit (events.js:375:28)
+      at emitKeys (internal/readline/utils.js:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1179:36)
+      at ReadStream.emit (events.js:375:28)
+      at addChunk (internal/streams/readable.js:290:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
