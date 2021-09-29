@@ -2,8 +2,10 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "ES2016",
-    "sourceMap": true
+    "sourceMap": true,
+    "rootDir": "src",
+    "outDir": "dist"
   },
-  "include": ["index.ts"],
-  "exclude": ["node_modues"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
